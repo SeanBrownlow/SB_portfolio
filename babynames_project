@@ -7,6 +7,15 @@ first_name	  varchar	    first name
 sex	          varchar	    sex of babies given first_name
 num	          int	        number of babies of sex given first_name in that year
 
+baby_names
+
+column	      	type	      	meaning
+
+year	        int	        year
+first_name	varchar	    	first name
+sex	        varchar	    	sex of babies given first_name
+num	        int	        number of babies of sex given first_name in that year
+
 
 
 1.)
