@@ -1,21 +1,26 @@
 When was the golden age of games?
 
+Tables:
+
 game_sales
 
-column	type	meaning
-game	varchar	Name of the video game
-platform	varchar	Gaming platform
-publisher	varchar	Game publisher
-developer	varchar	Game developer
-games_sold	float	Number of copies sold (millions)
-year	int	Release year
+column	            type	        meaning
+
+game	            varchar	        Name of the video game
+platform	        varchar	        Gaming platform
+publisher	        varchar	        Game publisher
+developer	        varchar	        Game developer
+games_sold	        float	        Number of copies sold (millions)
+year	            int	            Release year
+
 
 reviews
 
-column	type	meaning
-game	varchar	Name of the video game
-critic_score	float	Critic score according to Metacritic
-user_score	float	User score according to Metacritic
+column	        type	        meaning
+
+game	        varchar	        Name of the video game
+critic_score	float	        Critic score according to Metacritic
+user_score	    float	        User score according to Metacritic
 
 
 
@@ -69,7 +74,7 @@ LIMIT 10;
 
 4.
 
--- Paste your query from the previous task; update it to add a count of games released in each year called num_games
+-- Use query from the previous task; update it to add a count of games released in each year called num_games
 -- Update the query so that it only returns years that have more than four reviewed games
 
 SELECT
@@ -85,19 +90,25 @@ ORDER BY avg_critic_score DESC
 LIMIT 10;
 
 
+Tables:
+
 
 top_critic_years
 
-column	type	meaning
-year	int	Year of video game release
-avg_critic_score	float	Average of all critic scores for games released in that year
+column	            type	       meaning
+
+year	            int	           Year of video game release
+avg_critic_score	float	       Average of all critic scores for games released in that year
+
+
 
 top_critic_years_more_than_four_games
 
-column	type	meaning
-year	int	Year of video game release
-num_games	int	Count of the number of video games released in that year
-avg_critic_score	float	Average of all critic scores for games released in that year
+column	            type	    meaning
+
+year	            int	        Year of video game release
+num_games	        int	        Count of the number of video games released in that year
+avg_critic_score	float	    Average of all critic scores for games released in that year
  
 
 
@@ -137,22 +148,25 @@ ORDER BY avg_user_score DESC
 LIMIT 10;
 
 
+Tables:
+
 
 top_critic_years_more_than_four_games
 
-column	type	meaning
-year	int	Year of video game release
-num_games	int	Count of the number of video games released in that year
-avg_critic_score	float	Average of all critic scores for games released in that year
+column	            type	    meaning
 
-We've also saved the results of our top user years query from the previous task into a table:
+year	            int	        Year of video game release
+num_games	        int	        Count of the number of video games released in that year
+avg_critic_score	float	    Average of all critic scores for games released in that year
+
 
 top_user_years_more_than_four_games
 
-column	type	meaning
-year	int	Year of video game release
-num_games	int	Count of the number of video games released in that year
-avg_user_score	float	Average of all user scores for games released in that year
+column	            type	    meaning
+
+year	            int	        Year of video game release
+num_games	        int	        Count of the number of video games released in that year
+avg_user_score	    float	    Average of all user scores for games released in that year
 
 
 
