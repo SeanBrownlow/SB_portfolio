@@ -17,7 +17,6 @@ game	varchar	Name of the video game
 critic_score	float	Critic score according to Metacritic
 user_score	float	User score according to Metacritic
 
-From <https://sessions.datacamp.com/proxy/absolute/7acffc80-14ad-4523-a48a-458fdca2e262/notebooks/production/users/2503340/2bvmwybubz/notebooks/notebook.ipynb> 
 
 
 
@@ -99,8 +98,7 @@ column	type	meaning
 year	int	Year of video game release
 num_games	int	Count of the number of video games released in that year
 avg_critic_score	float	Average of all critic scores for games released in that year
-
-From <https://sessions.datacamp.com/proxy/absolute/7acffc80-14ad-4523-a48a-458fdca2e262/notebooks/production/users/2503340/2bvmwybubz/notebooks/notebook.ipynb> 
+ 
 
 
 
@@ -156,7 +154,6 @@ year	int	Year of video game release
 num_games	int	Count of the number of video games released in that year
 avg_user_score	float	Average of all user scores for games released in that year
 
-From <https://sessions.datacamp.com/proxy/absolute/1b1921dc-46e5-4fd7-a755-c01772863bc8/notebooks/production/users/2503340/2bvmwybubz/notebooks/notebook.ipynb> 
 
 
 
